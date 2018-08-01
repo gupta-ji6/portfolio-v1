@@ -1,15 +1,33 @@
-/* ---- reset ---- */
-
 body {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
 }
 
 canvas {
   display: block;
 }
 
-/* ---- particles.js container ---- */
+.navbar {
+  background-color: #f5f5f5;
+  opacity: 0.8;
+  font-family: 'Raleway', sans-serif;
+  color: black !important;
+}
+
+.nav-item:hover {
+  background-color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f5f5f5;
+}
+
+.navbar-toggler {
+  background-color: black !important;
+}
 
 #particles-js {
   position: absolute;
@@ -22,11 +40,28 @@ canvas {
   background-position: 50% 50%;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nameWrapper {
+  position: relative;
+  text-align: left;
+}
+
+.name {
   font-family: 'Raleway', sans-serif;
-  font-size: 15vw;
-  z-index: 100;
+  color: black;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 35vh;  
+  /* top: 50%; */
+  /* left: 50%; */
+  left: 10vw;
+  /* transform: translate(-50%, -50%); */
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: .3em;
+  text-transform: uppercase;
+  /* position: absolute; */
 }
